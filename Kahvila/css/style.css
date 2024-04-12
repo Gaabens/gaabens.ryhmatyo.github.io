@@ -424,9 +424,11 @@ button {
 }
 
 .banner_img {
-    width: 100%;
+    width: 200%;
     float: left;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    right: 250px;
 }
 
 
@@ -485,6 +487,16 @@ button {
     color: #3b3b3b;
     text-align: center;
     margin: 0px;
+}
+
+.tarinatext {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #3b3b3b;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .read_bt {
