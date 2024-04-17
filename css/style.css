@@ -603,6 +603,10 @@ button {
     width: 40%;
 }   
 
+.kahvila_img {
+    width: 100%;
+}
+
 .about_taital_1 {
     width: 100%;
     float: left;
