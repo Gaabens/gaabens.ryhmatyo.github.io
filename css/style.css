@@ -224,13 +224,13 @@ button {
 .header_bg {
     width: 100%;
     float: left;
-    background-image: url(../images/header-bg.png);
+    background-image: url(../images/header-bg.jpg);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .header_bg .navbar-expand-lg .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #cf8080;
 }
 
 .bg-light {
@@ -246,21 +246,21 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 10px;
     font-size: 17px;
-    color: #a9a8a8;
+    color: #da9c9c;
     border-radius: 5px;
     text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #4c4c4c;
+    color: #fffcfc;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #4c4c4c;
+    color: #ca6e6e;
 }
 
 .navbar-brand {
@@ -600,8 +600,8 @@ button {
 }
 
 .about_img {
-    width: 100%;
-}
+    width: 40%;
+}   
 
 .about_taital_1 {
     width: 100%;
