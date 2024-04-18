@@ -319,13 +319,18 @@ button {
     padding-top: 80px;
 }
 
+/*Emma Espresso teksti etusivulla*/
+
 .banner_taital {
     width: 100%;
     font-size: 110px;
     color: #252525;
     font-weight: 800;
     font-family: 'Times New Roman';
+    line-height: 100px;
 }
+
+/*Aidon kahvin maku teksti*/
 
 .tasty_text {
     width: 100%;
@@ -334,7 +339,10 @@ button {
     color: #ff8a80;
     font-weight: bold;
     font-family:'Times New Roman';
+    line-height: 60px;
 }
+
+/*"Olemme keravan..." teksti*/
 
 .banner_text {
     width: 100%;
@@ -343,12 +351,14 @@ button {
     color: #4a4949;
     margin: 0px;
     font-family: 'Times New Roman';
+    line-height: 25px;
 }
 
 .btn_main {
     width: 100%;
     float: left;
     padding-top: 40px;
+    font-family:'Times New Roman', Times, serif
 }
 
 .about_bt {
@@ -367,10 +377,14 @@ button {
     border-radius: 5px;
 }
 
+/*Tarinamme nappula etusivulla*/
+
 .about_bt a:hover {
     color: #fefefd;
     background-color: #4a4949;
 }
+
+/*Yhteystiedot nappula etusivulla*/
 
 .callnow_bt {
     width: 175px;
