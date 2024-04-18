@@ -225,7 +225,7 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/header-bg.jpg);
-    height: auto;
+    height: 120px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
