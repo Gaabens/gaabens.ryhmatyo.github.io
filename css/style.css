@@ -246,7 +246,7 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 10px;
     font-size: 17px;
-    color: #da9c9c;
+    color: #a26a42;
     border-radius: 5px;
     text-transform: uppercase;
 }
@@ -557,6 +557,7 @@ button {
     color: #fefefd;
     background-color: #4a4949;
 }
+
 
 
 /* coffee section end */
@@ -889,7 +890,7 @@ textarea#comment.massage-bt::placeholder {
     width: 100%;
     float: left;
     height: auto;
-    background-image: url(../images/footer-bg.png);
+    background-image: url(../images/footer-bg1.jpg);
     background-size: 100% 100%;
     padding: 90px 0px 0px 0px;
 }
