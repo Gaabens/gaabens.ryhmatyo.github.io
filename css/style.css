@@ -1100,3 +1100,7 @@ textarea#comment.update_mail::placeholder {
     top: 100px;
 
 }
+
+input{
+    text-align: right;
+}
