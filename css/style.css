@@ -914,6 +914,8 @@ textarea#comment.massage-bt::placeholder {
     background-image: url(../images/footer-bg1.jpg);
     background-size: 100% 100%;
     padding: 90px 0px 0px 0px;
+    position: relative;
+    top: 150px;
 }
 
 .address_text {
@@ -1090,4 +1092,11 @@ textarea#comment.update_mail::placeholder {
 
 .margin_top90 {
     margin-top: 90px;
+}
+
+.ilmoitus{
+    text-align: center;
+    position: relative;
+    top: 100px;
+
 }
