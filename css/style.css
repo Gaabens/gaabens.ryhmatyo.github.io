@@ -527,9 +527,10 @@ button {
     float: left;
     font-size: 16px;
     color: #3b3b3b;
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
     margin-bottom: 0px;
+    padding-left: 10%;
 }
 
 .read_bt {
@@ -635,6 +636,8 @@ button {
 
 .about_img {
     width: 40%;
+    position: relative;
+    left: 30%;
 }   
 
 .kahvila_img {
