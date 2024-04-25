@@ -488,6 +488,10 @@ button {
     text-align: center;
 }
 
+.bulit_tuotteet {
+    padding-bottom: 6%;
+}
+
 .coffee_img img {
     width: 100%;
     float: left;
@@ -506,10 +510,16 @@ button {
 .looking_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #3b3b3b;
     text-align: center;
-    margin: 0px;
+    padding-bottom: 2%;
+}
+
+.tuotteet_text {
+    font-size: 16px;
+    padding-top: 1px;
+    line-height: 25px;
 }
 
 .tarinatext {
@@ -1103,4 +1113,9 @@ textarea#comment.update_mail::placeholder {
 
 input{
     text-align: right;
+}
+
+.submit{
+
+    
 }
