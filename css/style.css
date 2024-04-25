@@ -29,7 +29,7 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
@@ -854,7 +854,7 @@ button {
     padding: 11px 20px;
     margin-top: 20px;
     border-radius: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 input.mail_text::placeholder {
@@ -872,7 +872,7 @@ input.mail_text::placeholder {
     height: 110px;
     margin-top: 20px;
     border-radius: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 textarea#comment.massage-bt::placeholder {
@@ -897,7 +897,7 @@ textarea#comment.massage-bt::placeholder {
     display: block;
     font-weight: bold;
     border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .send_bt a:hover {
@@ -926,24 +926,34 @@ textarea#comment.massage-bt::placeholder {
     padding: 90px 0px 0px 0px;
     position: relative;
     top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+   
+}
+
+.kartta {
+    padding-top: 50%;
 }
 
 .address_text {
     width: 100%;
     float: left;
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
     color: #fefefd;
     font-weight: bold;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    line-height: 10px;
 }
 
 .footer_text {
     width: 60%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 25px;
     color: #fefefd;
     text-align: center;
+    line-height: 10px;
+
 }
 
 .location_text {
@@ -951,6 +961,8 @@ textarea#comment.massage-bt::placeholder {
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .location_text ul {
@@ -959,9 +971,10 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .location_text li {
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     padding: 0px 0px 5px 0px;
+    line-height: 10px;
 }
 
 .location_text li a {
@@ -1069,36 +1082,6 @@ textarea#comment.update_mail::placeholder {
 
 /* footer section end */
 
-
-/* copyright section start */
-
-.copyright_section {
-    width: 100%;
-    float: left;
-    background-color: #d07d6b;
-    height: auto;
-}
-
-.copyright_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    margin-left: 0px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.copyright_text a {
-    color: #ffffff;
-}
-
-.copyright_text a:hover {
-    color: #363636;
-}
-
-
-/* copyright section end */
 
 .margin_top90 {
     margin-top: 90px;
