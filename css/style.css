@@ -468,8 +468,8 @@ button {
 .coffee_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
-    color: #3b3b3b;
+    font-size: 45px;
+    color: #291405;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -500,7 +500,7 @@ button {
 .types_text {
     width: 100%;
     float: left;
-    font-size: 22px;
+    font-size: 25px;
     color: #3b3b3b;
     text-align: center;
     font-weight: bold;
@@ -510,14 +510,14 @@ button {
 .looking_text {
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     color: #3b3b3b;
     text-align: center;
     padding-bottom: 2%;
 }
 
 .tuotteet_text {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 1px;
     line-height: 25px;
 }
@@ -525,7 +525,7 @@ button {
 .tarinatext {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #3b3b3b;
     text-align: left;
     margin-top: 50px;
