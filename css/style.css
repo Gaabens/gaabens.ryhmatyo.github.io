@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- Nimi: style.css ---------------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
@@ -212,7 +212,7 @@ button {
 }
 
 
-/* header section start */
+/* header sektio alkaa */
 
 .header_section {
     width: 100%;
@@ -302,10 +302,10 @@ button {
 }
 
 
-/* header section end */
+/* header sektio loppuu */
 
 
-/* banner section start */
+/* banner sektio */
 
 .banner_section {
     width: 100%;
@@ -455,10 +455,10 @@ button {
 }
 
 
-/* banner section end */
+/* banner sektio loppuu */
 
 
-/* coffee section start */
+/* tuotteet sektio */
 
 .coffee_section {
     width: 100%;
@@ -486,6 +486,10 @@ button {
 .bulit_icon {
     width: 100%;
     text-align: center;
+}
+
+.bulit_icon_ilmoitus {
+    margin: 0 auto;
 }
 
 .bulit_tuotteet {
@@ -590,10 +594,10 @@ button {
 
 
 
-/* coffee section end */
+/* tuotteet sektio loppuu */
 
 
-/* about section start */
+/* tarinamme sektio */
 
 .about_section {
     width: 100%;
@@ -697,65 +701,7 @@ button {
 }
 
 
-/* about section end */
-
-
-/* client section start */
-
-.client_section {
-    width: 100%;
-    float: left;
-    background-image: url(../images/client-bg.png);
-    height: auto;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
-}
-
-.client_section_2 {
-    width: 100%;
-    float: left;
-}
-
-.client_taital_main {
-    width: 100%;
-    display: flex;
-    padding-top: 30px;
-}
-
-.client_left {
-    width: 20%;
-    float: left;
-    padding-left: 50px;
-}
-
-.client_img {
-    width: 90%;
-}
-
-.client_right {
-    width: 80%;
-    float: left;
-    padding-top: 20px;
-}
-
-.moark_text {
-    width: 100%;
-    float: left;
-    font-size: 24px;
-    color: #3b3b3b;
-    font-weight: bold;
-}
-
-.client_text {
-    width: 75%;
-    float: left;
-    font-size: 16px;
-    color: #3b3b3b;
-    margin: 0px;
-}
-
-
-/* client section end */
+/* tarinamme sektio loppuu */
 
 /* blog section start */
 
@@ -815,7 +761,7 @@ button {
 /* blog section end */
 
 
-/* contact section start */
+/* yhteistiedot sektio */
 
 .contact_section {
     width: 100%;
@@ -915,10 +861,10 @@ textarea#comment.massage-bt::placeholder {
 }
 
 
-/* contact section end */
+/* yhteistiedot sektio loppuu */
 
 
-/* footer section start */
+/* footer sektio */
 
 .footer_section {
     width: 100%;
@@ -1083,7 +1029,7 @@ textarea#comment.update_mail::placeholder {
 }
 
 
-/* footer section end */
+/* footer sektio loppuu */
 
 
 .margin_top90 {
