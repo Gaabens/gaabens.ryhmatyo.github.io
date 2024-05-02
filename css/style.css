@@ -29,7 +29,7 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
@@ -1050,4 +1050,9 @@ input{
 .submit{
 
     
+}
+
+#tarjous_text {
+    margin-top: 5%;
+    text-align: center;
 }

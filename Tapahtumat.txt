@@ -1,0 +1,15 @@
+Latte Art -päivä
+Kuvaus: Päivän aikana asiakkaat voivat ihailla baristojen taitoja, kun he luovat upeita latte art -kuvioita juomiin. Erityistarjouksena kaikki latte-juomat, mukaan lukien erikoismausteiset versiot kuten kurkuma- tai punajuurilatte, ovat alennettuun hintaan.
+Erikoistarjous: Alennus kaikkiin latte-juomiin ja ilmaisia latte art -näytöksiä pitkin päivää.
+
+Paikallisten Tuottajien Päivä
+Kuvaus: Kahvila esittelee paikallisten tuottajien tuotteita ja tarjoaa asiakkaille mahdollisuuden maistaa ja ostaa paikallisesti valmistettuja herkkuja. Päivä voi sisältää myös lyhyitä puheenvuoroja tuottajilta itse kertomassa heidän tuotteistaan ja tuotantoprosesseistaan.
+Erikoistarjous: Erityismenu, joka on kokonaisuudessaan valmistettu paikallisista aineksista.
+
+Kahvimaistelu- ja koulutuspäivä
+Kuvaus: Kahvila järjestää kahvimaistelusession, jossa asiakkaat voivat maistella erilaisia kahvilaatuja ja oppia eroja niiden välillä. Tapahtumaan voi sisältyä myös mini-workshop, jossa opetetaan, miten kotona voi valmistaa täydellistä kahvia.
+Erikoistarjous: Alennus kaikista ostetuista kahvipavuista tapahtuman aikana.
+
+Vegaanihaaste
+Kuvaus: Kahvila haastaa asiakkaansa kokeilemaan vegaanista ruokavaliota päivän ajan tarjoamalla erityisen vegaanimenun. Tapahtuman tavoitteena on lisätä tietoisuutta kasvipohjaisesta ruokavaliosta ja sen ympäristövaikutuksista.
+Erikoistarjous: Alennusta kaikista vegaanisista menuvaihtoehdoista ja mahdollisuus osallistua arvontaan, jossa palkintoina vegaanisia tuotepaketteja.
