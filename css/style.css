@@ -703,6 +703,14 @@ button {
 
 /* tarinamme sektio loppuu */
 
+/* tapahtumakalenteri alku */
+
+.tapahtumakalenteri {
+    width: 100%;
+}
+
+/* tapahtumakalenteri loppu */
+
 /* blog section start */
 
 .blog_section {

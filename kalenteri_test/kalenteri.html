@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="kalenteri.css" />
+
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Tapahtumakalenteri</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calendar">
+        <div class="header">
+          <div class="month"></div>
+          <div class="btns">
+            <div class="btn today-btn">
+              <i class="fas fa-calendar-day"></i>
+            </div>
+            <div class="btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="weekdays">
+          <div class="day">Ma</div>
+          <div class="day">Ti</div>
+          <div class="day">Ke</div>
+          <div class="day">To</div>
+          <div class="day">Pe</div>
+          <div class="day">La</div>
+          <div class="day">Su</div>
+        </div>
+        <div class="days">
+          <!-- lets add days using js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="kalenteri.js"></script>
+  </body>
