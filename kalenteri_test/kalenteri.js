@@ -3,6 +3,7 @@ const daysContainer = document.querySelector(".days"),
   prevBtn = document.querySelector(".prev-btn"),
   month = document.querySelector(".month"),
   todayBtn = document.querySelector(".today-btn");
+  
 
 const months = [
   "Tammikuu",
@@ -59,7 +60,7 @@ function renderCalendar() {
     const currentDate = new Date(currentYear, currentMonth, i);
     const dayOfWeek = currentDate.getDay();
 
-
+    
     // check if its today then add today class
     if (
       i === new Date().getDate() &&
@@ -67,16 +68,16 @@ function renderCalendar() {
       currentYear === new Date().getFullYear()
     ) {
       // if date month year matches add today
-      days += `<div class="day today">${i}</div>`;
-
+      days += `<button class="day today">${i}</button>`;
+      
     } else if (dayOfWeek === 5 && i + 7 > lastDayDate) {
       // If day is friday and it is the last in the month
-      days += `<div class="day last-friday">${i}</div>`;
+      days += `<button class="day last-friday">${i}</button>`;
+
 
     } else {
       //else dont add today
-      days += `<div class="day ">${i}</div>`;
-
+      days += `<button class="day ">${i}</button>`;
     }
   }
 
@@ -84,6 +85,7 @@ function renderCalendar() {
   for (let j = 1; j <= nextDays; j++) {
     days += `<div class="day next">${j}</div>`;
   }
+
 
   // run this function with every calendar render
   hideTodayBtn();

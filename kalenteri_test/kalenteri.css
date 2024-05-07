@@ -127,3 +127,31 @@ body {
 .credits span {
   color: var(--primary-color);
 }
+
+
+/* Стили для отображения событий 
+#eventContainer {
+  margin-top: 20px;
+}
+
+#eventContainer div {
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#eventContainer div:first-child {
+  margin-top: 0;
+}
+
+#eventContainer .no-events {
+  font-style: italic;
+  color: #888;
+}
+
+
+.admin_button {
+  position: relative;
+  float: left;
+} */

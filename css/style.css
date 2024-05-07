@@ -710,6 +710,28 @@ button {
     width: 100%;
 }
 
+.tapahtumat {
+    display: flex;
+
+}
+
+.tapahtuma_image {
+    width: 300px;
+    height: 300px;
+    padding-right: 30 px;
+    padding-left: 30 px;
+}
+
+.tapahtuma_teksti {
+    padding: 10px;
+    font-size: 12px;
+    float: left;
+    margin-left: left;
+    display: table-cell;
+    padding-right: 20 px;
+    position: relative;
+}
+
 /* tapahtumakalenteri loppu */
 
 /* blog section start */
