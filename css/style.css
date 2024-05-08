@@ -480,8 +480,8 @@ button {
     width: 100%;
     float: left;
     font-size: 45px;
-    color: #291405;
-    text-transform: uppercase;
+    color: #000000;
+    text-transform: capitalize;
     text-align: center;
     font-weight: bold;
     padding-bottom: 0px;
@@ -628,7 +628,7 @@ button {
     float: left;
     font-size: 40px;
     color: #000000;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     font-weight: bold;
     padding-bottom: 0px;
@@ -843,7 +843,7 @@ button {
     color: #252525;
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .contact_section_2 {
