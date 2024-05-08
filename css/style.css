@@ -14,6 +14,7 @@
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
 @import url(nice-select.css);
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&family=Petit+Formal+Script&family=Satisfy&family=Sofia&display=swap');
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -28,13 +29,20 @@ html {
 
 body {
     color: #666666;
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.80857;
+    font-size: 20px;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: "Oregano", cursive;
+    line-height: 2.5;
     font-weight: normal;
     overflow-x: hidden;
 }
 
+.oregano-regular {
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 a {
     color: #1f1f1f;
     text-decoration: none !important;
@@ -122,7 +130,7 @@ ol {
 p {
     margin: 0px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 24px;
     margin-right: 20px;
     margin-top: 20px;
@@ -329,7 +337,7 @@ button {
     font-size: 110px;
     color: #252525;
     font-weight: 800;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
     line-height: 100px;
 }
 
@@ -341,7 +349,7 @@ button {
     font-size: 34px;
     color: #ff8a80;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
     line-height: 60px;
 }
 
@@ -350,10 +358,10 @@ button {
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     color: #4a4949;
     margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+    font-family: "Oregano", cursive;
     line-height: 25px;
 }
 
@@ -361,7 +369,7 @@ button {
     width: 100%;
     float: left;
     padding-top: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: "Oregano", cursive;
 }
 
 .about_bt {
@@ -372,7 +380,7 @@ button {
 .about_bt a {
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 22px;
     background-color: #ff8a80;
     color: #fefefd;
     text-align: center;
@@ -397,7 +405,7 @@ button {
 .callnow_bt a {
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 22px;
     background-color: #4a4949;
     color: #fefefd;
     text-align: center;
@@ -507,7 +515,7 @@ button {
 .types_text {
     width: 100%;
     float: left;
-    font-size: 25px;
+    font-size: 38px;
     color: #0e0d0d;
     text-align: center;
     font-weight: bold;
@@ -517,7 +525,7 @@ button {
 .looking_text {
     width: 100%;
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     color: #111010;
     text-align: center;
     padding-bottom: 2%;
@@ -533,7 +541,7 @@ button {
 .tarinatext {
     width: 100%;
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     color: #000000;
     text-align: left;
     margin-top: 50px;
@@ -662,7 +670,7 @@ button {
 .about_text {
     width: 100%;
     float: left;
-    font-size: 42px;
+    font-size: 50px;
     color: #000000;
     margin: 0px;
 }
@@ -673,11 +681,11 @@ button {
     padding-right: 20px;
     padding-left: 0px;
     
-    
 }
 
 .tarinamme_text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
+    font-size: 50px;
   
 }
 
@@ -839,7 +847,7 @@ button {
     padding: 11px 20px;
     margin-top: 20px;
     border-radius: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
 }
 
 input.mail_text::placeholder {
@@ -857,7 +865,7 @@ input.mail_text::placeholder {
     height: 110px;
     margin-top: 20px;
     border-radius: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
 }
 
 textarea#comment.massage-bt::placeholder {
@@ -882,7 +890,7 @@ textarea#comment.massage-bt::placeholder {
     display: block;
     font-weight: bold;
     border-radius: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
 }
 
 .send_bt a:hover {
@@ -911,7 +919,7 @@ textarea#comment.massage-bt::placeholder {
     padding: 90px 0px 0px 0px;
     position: relative;
     top: 150px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oregano", cursive;
     line-height: 20px;
    
 }
