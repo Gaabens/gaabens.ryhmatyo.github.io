@@ -258,7 +258,7 @@ button {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 3px 10px;
-    font-size: 17px;
+    font-size: 20px;
     color: #ff8a80;
     border-radius: 5px;
     text-transform: uppercase;
@@ -479,7 +479,7 @@ button {
 .coffee_taital {
     width: 100%;
     float: left;
-    font-size: 45px;
+    font-size: 65px;
     color: #000000;
     text-transform: capitalize;
     text-align: center;
@@ -515,7 +515,7 @@ button {
 .types_text {
     width: 100%;
     float: left;
-    font-size: 38px;
+    font-size: 40px;
     color: #0e0d0d;
     text-align: center;
     font-weight: bold;
@@ -525,14 +525,14 @@ button {
 .looking_text {
     width: 100%;
     float: left;
-    font-size: 25px;
+    font-size: 28px;
     color: #111010;
     text-align: center;
     padding-bottom: 2%;
 }
 
 .tuotteet_text {
-    font-size: 20px;
+    font-size: 23px;
     padding-top: 1px;
     line-height: 25px;
     color: #000000;
@@ -626,7 +626,7 @@ button {
 .about_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 65px;
     color: #000000;
     text-transform: capitalize;
     text-align: center;
@@ -663,7 +663,7 @@ button {
 .about_taital_1 {
     width: 100%;
     float: left;
-    font-size: 30px;
+    font-size: 45px;
     color: #000000;
 }
 
@@ -838,7 +838,7 @@ button {
 .contact_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 45px;
     color: #252525;
     font-weight: bold;
     text-align: center;
