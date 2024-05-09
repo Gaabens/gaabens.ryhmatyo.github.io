@@ -738,7 +738,7 @@ button {
 }
 
 .tapahtuma_image {
-    width: 400px;
+    width: 370px;
     height: 300px;
     padding-right: 10px;
     padding-left: 10px;
@@ -750,7 +750,7 @@ button {
     float: left;
     margin-left: left;
     display: table-cell;
-    padding-right: 20 px;
+    padding-right:10 px;
     position: relative;
     color:#000000
 }
