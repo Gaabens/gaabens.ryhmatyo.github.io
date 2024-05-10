@@ -10,8 +10,8 @@ const calendar = document.querySelector(".calendar"),
   eventDate = document.querySelector(".event-date"),
   eventsContainer = document.querySelector(".events"),
   addEventBtn = document.querySelector(".add-event"),
-  addEventWrapper = document.querySelector(".add-event-wrapper "),
-  addEventCloseBtn = document.querySelector(".close "),
+  addEventWrapper = document.querySelector(".add-event-wrapper"),
+  addEventCloseBtn = document.querySelector(".close"),
   addEventTitle = document.querySelector(".event-name "),
   addEventFrom = document.querySelector(".event-time-from "),
   addEventTo = document.querySelector(".event-time-to "),
@@ -281,12 +281,6 @@ function updateEvents(date) {
 addEventBtn.addEventListener("click", () => {
   const enteredPassword = prompt("Lisää tapahtuma syöttämällä salasana:");
 
-  // Tarkista null- tai tyhjä merkkijono (jos käyttäjä valitsi Peruuta tai ei antanut salasanaa)
-  if (enteredPassword === null || enteredPassword === "") {
-    // Jos salasanaa ei anneta, sulje
-    return;
-  }
-
   if (enteredPassword === correctPassword) {
       const eventTitle = addEventTitle.value;
       const eventTimeFrom = addEventFrom.value;
@@ -320,12 +314,15 @@ addEventBtn.addEventListener("click", () => {
           addEventWrapper.classList.remove("active"); // Modaalisen ikkunan sulkeminen
       }
   } else {
-      alert("Virheellinen salasana. Tapahtuman lisääminen hylätään.");
+      console.log("Virheellinen salasana. Tapahtuman lisääminen hylätään.");
   }
+  
 });
+
 //add admin password end
 
-  addEventCloseBtn.addEventListener("click", () => {
+
+addEventCloseBtn.addEventListener("click", () => {
   addEventWrapper.classList.remove("active");
 });
 

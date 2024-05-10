@@ -36,20 +36,21 @@
     justify-content: center;
     padding-bottom: 10px;
     background-color: #dcc7b8;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .container {
-    position: relative;
-    width: 1200px;
-    min-height: 850px;
+    width: auto;
+    min-height: 100px;
     margin: 0 auto;
     padding: 5px;
     color: #dcc7b8;
     display: flex;
-  
+    transform: scale(0.7);
+    transform-origin: top center;
     border-radius: 10px;
     background-color: #452209;
   }
+
   .left {
     width: 60%;
     padding: 20px;
@@ -547,3 +548,4 @@
       padding: 20px;
     }
   }
+
