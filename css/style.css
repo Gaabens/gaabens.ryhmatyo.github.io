@@ -1125,13 +1125,25 @@ input{
     text-align: right;
 }
 
-.submit{
-
-    
-}
 
 #tarjous_text {
     margin-top: 5%;
     text-align: center;
     color:#000000
 }
+
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block; /* Aseta label block-elementiksi, jolloin se sijoittuu kentän yläpuolelle */
+    margin-bottom: 1px; /* Määritä haluamasi etäisyys labelin ja kentän välille */
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+  }
+  
