@@ -235,7 +235,12 @@ function gotoDate() {
 //function get active day day name and date and update eventday eventdate
 function getActiveDay(date) {
   const day = new Date(year, month, date);
-  const dayName = day.toString().split(" ")[0];
+
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const dayFormatted = day.toLocaleDateString('fi-FI', options);
+
+
+  const dayName = dayFormatted.toString().split(" ")[0];
   eventDay.innerHTML = dayName;
   eventDate.innerHTML = date + " " + months[month] + " " + year;
 }
