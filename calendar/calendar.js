@@ -16,6 +16,8 @@ const calendar = document.querySelector(".calendar"),
   addEventFrom = document.querySelector(".event-time-from "),
   addEventTo = document.querySelector(".event-time-to "),
   addEventSubmit = document.querySelector(".add-event-btn ");
+  const correctPassword = "EmmaEspresso";
+
 
 let today = new Date();
 let activeDay;
@@ -270,11 +272,55 @@ function updateEvents(date) {
 }
 
 //function to add event
+//add admin password
 addEventBtn.addEventListener("click", () => {
-  addEventWrapper.classList.toggle("active");
-});
+  const enteredPassword = prompt("Lisää tapahtuma syöttämällä salasana:");
 
-addEventCloseBtn.addEventListener("click", () => {
+  // Tarkista null- tai tyhjä merkkijono (jos käyttäjä valitsi Peruuta tai ei antanut salasanaa)
+  if (enteredPassword === null || enteredPassword === "") {
+    // Jos salasanaa ei anneta, sulje
+    return;
+  }
+
+  if (enteredPassword === correctPassword) {
+      const eventTitle = addEventTitle.value;
+      const eventTimeFrom = addEventFrom.value;
+      const eventTimeTo = addEventTo.value;
+      addEventWrapper.classList.toggle("active");
+
+      // Tarkista, että kaikki kentät ovat valmiita
+      if (eventTitle && eventTimeFrom && eventTimeTo) {
+          const newEvent = {
+              title: eventTitle,
+              time: `${eventTimeFrom} - ${eventTimeTo}`
+          };
+
+          // Uuden tapahtuman lisääminen eventsArr
+          eventsArr.push({
+              day: activeDay,
+              month: month + 1,
+              year: year,
+              events: [newEvent]
+          });
+
+          // Tapahtumien tallentaminen kohteeseen localStorage
+          saveEvents();
+
+          // Syöttökenttien tyhjentäminen ja kalenterin päivittäminen
+          addEventTitle.value = "";
+          addEventFrom.value = "";
+          addEventTo.value = "";
+
+          updateEvents(activeDay); // Päivitä kuluvan päivän tapahtumat
+          addEventWrapper.classList.remove("active"); // Modaalisen ikkunan sulkeminen
+      }
+  } else {
+      alert("Virheellinen salasana. Tapahtuman lisääminen hylätään.");
+  }
+});
+//add admin password end
+
+  addEventCloseBtn.addEventListener("click", () => {
   addEventWrapper.classList.remove("active");
 });
 
@@ -385,7 +431,6 @@ addEventSubmit.addEventListener("click", () => {
       events: [newEvent],
     });
   }
-
   console.log(eventsArr);
   addEventWrapper.classList.remove("active");
   addEventTitle.value = "";
@@ -402,34 +447,51 @@ addEventSubmit.addEventListener("click", () => {
 //function to delete event when clicked on event
 eventsContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("event")) {
-    if (confirm("Haluatko varmasti poistaa tämän tapahtuman?")) {
-      const eventTitle = e.target.children[0].children[1].innerHTML;
-      eventsArr.forEach((event) => {
-        if (
-          event.day === activeDay &&
-          event.month === month + 1 &&
-          event.year === year
-        ) {
-          event.events.forEach((item, index) => {
-            if (item.title === eventTitle) {
-              event.events.splice(index, 1);
-            }
-          });
-          //if no events left in a day then remove that day from eventsArr
-          if (event.events.length === 0) {
-            eventsArr.splice(eventsArr.indexOf(event), 1);
-            //remove event class from day
-            const activeDayEl = document.querySelector(".day.active");
-            if (activeDayEl.classList.contains("event")) {
-              activeDayEl.classList.remove("event");
+    const eventTitle = e.target.querySelector(".event-title").textContent;
+
+    // Pyydä salasanaa poiston vahvistamiseksi
+    const enteredPassword = prompt("Anna salasana poistaaksesi tapahtuman:");
+
+    // Tarkista null- tai tyhjä merkkijono (jos käyttäjä valitsi Peruuta tai ei antanut salasanaa)
+    if (enteredPassword === null || enteredPassword === "") {
+      // Jos salasanaa ei anneta, sulje
+      return;
+    }
+
+    if (enteredPassword === correctPassword) {
+      if (confirm("Haluatko varmasti poistaa tämän tapahtuman?")) {
+        // Tapahtuman etsiminen ja poistaminen eventsArr-ryhmästä
+        eventsArr.forEach((event) => {
+          if (
+            event.day === activeDay &&
+            event.month === month + 1 &&
+            event.year === year
+          ) {
+            event.events = event.events.filter(
+              (item) => item.title !== eventTitle
+            );
+
+            // Jos kyseisenä päivänä ei ole enää tapahtumia, poista se ryhmästä
+            if (event.events.length === 0) {
+              eventsArr.splice(eventsArr.indexOf(event), 1);
+              // Poista tapahtumaluokka kalenterin päivästä, jos tapahtumia ei enää ole
+              const activeDayEl = document.querySelector(".day.active");
+              if (activeDayEl.classList.contains("event")) {
+                activeDayEl.classList.remove("event");
+              }
             }
           }
-        }
-      });
-      updateEvents(activeDay);
+        });
+
+        // Tapahtumanäytön päivittäminen
+        updateEvents(activeDay);
+      }
+    } else {
+      alert("Virheellinen salasana. Tapahtuman poisto hylätty.");
     }
   }
 });
+
 
 //function to save events in local storage
 function saveEvents() {

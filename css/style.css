@@ -1147,3 +1147,6 @@ label {
     margin: 20px auto;
   }
   
+  input {
+    text-align: left;
+}
