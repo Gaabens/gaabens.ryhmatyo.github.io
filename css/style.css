@@ -1150,3 +1150,9 @@ label {
   input {
     text-align: left;
 }
+
+#event {
+    margin: 0 auto;
+    text-align: center; /* Varmista, että teksti on keskitetty */
+    display: block; /* Jos se ei ole jo */
+}
