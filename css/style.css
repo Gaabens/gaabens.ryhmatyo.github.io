@@ -946,7 +946,7 @@ textarea#comment.massage-bt::placeholder {
 
 .footer_section {
     width: 100%;
-    float: center;
+    float: left;
     height: auto;
     background-image: url(../images/footer-bg1.jpg);
     background-size: 100% 100%;
@@ -960,12 +960,11 @@ textarea#comment.massage-bt::placeholder {
 
 .kartta {
     position: fixed;
-    padding-left: 300px;
 }
 
 .address_text {
     width: 100%;
-    float: center;
+    float: left;
     text-align: center;
     font-size: 45px;
     color: #fefefd;
@@ -981,7 +980,6 @@ textarea#comment.massage-bt::placeholder {
     color: #fefefd;
     text-align: center;
     line-height: 10px;
-    margin: center;
 
 }
 
