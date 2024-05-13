@@ -19,6 +19,13 @@ addEventSubmit = document.querySelector(".add-event-btn ");
 const correctPassword = "EmmaEspresso";
 
 
+//попытка добавить события
+const eventOne = "Latte Art-päivä";
+const eventTwo = "Latte Paikallisten Tuottajien Päivä";
+const eventThree = "Kahvimaistelu- ja koulutuspäivä";
+const eventFour = "Vegaanihaaste";
+//попытка добавить события
+
 let today = new Date();
 let activeDay;
 let month = today.getMonth();
@@ -518,4 +525,22 @@ function convertTime(time) {
   timeHour = timeHour % 12 || 12;
   time = timeHour + ":" + timeMin + " " + timeFormat;
   return time;
+}
+
+//попытка добавить события
+async function addEvent(title, time, day, month, year) {
+  const response = await fetch('/events/add', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ title, time, day, month, year })
+  });
+
+  if (response.ok) {
+    console.log('Event added successfully');
+    // Обновление календаря или других частей интерфейса после успешного добавления события
+  } else {
+    console.error('Failed to add event');
+  }
 }
