@@ -527,20 +527,3 @@ function convertTime(time) {
   return time;
 }
 
-//попытка добавить события
-async function addEvent(title, time, day, month, year) {
-  const response = await fetch('/events/add', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ title, time, day, month, year })
-  });
-
-  if (response.ok) {
-    console.log('Event added successfully');
-    // Обновление календаря или других частей интерфейса после успешного добавления события
-  } else {
-    console.error('Failed to add event');
-  }
-}
