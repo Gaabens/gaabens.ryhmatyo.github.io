@@ -1138,8 +1138,8 @@ form {
 }
 
 label {
-    display: block; /* Aseta label block-elementiksi, jolloin se sijoittuu kentän yläpuolelle */
-    margin-bottom: 1px; /* Määritä haluamasi etäisyys labelin ja kentän välille */
+    margin-bottom: 0px; /* Määritä haluamasi etäisyys labelin ja kentän välille */
+    text-align: center;
   }
   
   input[type="submit"] {
