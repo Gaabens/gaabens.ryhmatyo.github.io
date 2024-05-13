@@ -614,13 +614,13 @@ button {
 .about_section {
     width: 100%;
     float: left;
-    padding-bottom: 90px;
+    
 }
 
 .about_section_2 {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 .about_taital {
@@ -642,7 +642,7 @@ button {
     padding: 40px 20px 30px 20px;
     box-shadow: 0px 0px 30px 0px;
     position: absolute;
-    top: 1550px;
+    top: 1500px;
 }
 
 .image_iman {
@@ -946,7 +946,7 @@ textarea#comment.massage-bt::placeholder {
 
 .footer_section {
     width: 100%;
-    float: left;
+    float: center;
     height: auto;
     background-image: url(../images/footer-bg1.jpg);
     background-size: 100% 100%;
@@ -959,12 +959,13 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .kartta {
-    
+    position: fixed;
+    padding-left: 300px;
 }
 
 .address_text {
     width: 100%;
-    float: left;
+    float: center;
     text-align: center;
     font-size: 45px;
     color: #fefefd;
@@ -980,6 +981,7 @@ textarea#comment.massage-bt::placeholder {
     color: #fefefd;
     text-align: center;
     line-height: 10px;
+    margin: center;
 
 }
 
@@ -1138,7 +1140,7 @@ form {
 }
 
 label {
-    margin-bottom: 0px; /* Määritä haluamasi etäisyys labelin ja kentän välille */
+    margin-bottom: 1px; /* Määritä haluamasi etäisyys labelin ja kentän välille */
     text-align: center;
   }
   

@@ -1,22 +1,22 @@
 const calendar = document.querySelector(".calendar"),
-  date = document.querySelector(".date"),
-  daysContainer = document.querySelector(".days"),
-  prev = document.querySelector(".prev"),
-  next = document.querySelector(".next"),
-  todayBtn = document.querySelector(".today-btn"),
-  gotoBtn = document.querySelector(".goto-btn"),
-  dateInput = document.querySelector(".date-input"),
-  eventDay = document.querySelector(".event-day"),
-  eventDate = document.querySelector(".event-date"),
-  eventsContainer = document.querySelector(".events"),
-  addEventBtn = document.querySelector(".add-event"),
-  addEventWrapper = document.querySelector(".add-event-wrapper"),
-  addEventCloseBtn = document.querySelector(".close"),
-  addEventTitle = document.querySelector(".event-name "),
-  addEventFrom = document.querySelector(".event-time-from "),
-  addEventTo = document.querySelector(".event-time-to "),
-  addEventSubmit = document.querySelector(".add-event-btn ");
-  const correctPassword = "EmmaEspresso";
+date = document.querySelector(".date"),
+daysContainer = document.querySelector(".days"),
+prev = document.querySelector(".prev"),
+next = document.querySelector(".next"),
+todayBtn = document.querySelector(".today-btn"),
+gotoBtn = document.querySelector(".goto-btn"),
+dateInput = document.querySelector(".date-input"),
+eventDay = document.querySelector(".event-day"),
+eventDate = document.querySelector(".event-date"),
+eventsContainer = document.querySelector(".events"),
+addEventBtn = document.querySelector(".add-event"),
+addEventWrapper = document.querySelector(".add-event-wrapper"),
+addEventCloseBtn = document.querySelector(".close"),
+addEventTitle = document.querySelector(".event-name "),
+addEventFrom = document.querySelector(".event-time-from "),
+addEventTo = document.querySelector(".event-time-to "),
+addEventSubmit = document.querySelector(".add-event-btn ");
+const correctPassword = "EmmaEspresso";
 
 
 let today = new Date();
@@ -39,23 +39,23 @@ const months = [
   "Joulukuu",
 ];
 
-// const eventsArr = [
-//   {
-//     day: 13,
-//     month: 11,
-//     year: 2022,
-//     events: [
-//       {
-//         title: "Event 1 lorem ipsun dolar sit genfa tersd dsad ",
-//         time: "10:00 AM",
-//       },
-//       {
-//         title: "Event 2",
-//         time: "11:00 AM",
-//       },
-//     ],
-//   },
-// ];
+/*const eventsArrConst = [
+  {
+    day: 31,
+    month: 4,
+    year: 2024,
+    events: [
+      {
+        title: "Latte Art-päivä ",
+        time: "12:00",
+      },
+      {
+        title: "Event 2",
+        time: "11:00 AM",
+      },
+    ],
+   },
+];*/
 
 const eventsArr = [];
 getEvents();
