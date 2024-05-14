@@ -947,7 +947,7 @@ textarea#comment.massage-bt::placeholder {
 .footer_section {
     width: 100%;
     float: left;
-    height: auto;
+    height: 400px;
     background-image: url(../images/footer-bg1.jpg);
     background-size: 100% 100%;
     padding: 90px 0px 0px 0px;
@@ -959,35 +959,36 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .kartta {
-    position: fixed;
+    position: absolute;
+    top: 0px;
+    right: 200px;
 }
 
 .address_text {
     width: 100%;
     float: left;
-    text-align: center;
+    text-align: left;
     font-size: 45px;
     color: #fefefd;
     font-weight: bold;
     padding-bottom: 40px;
     line-height: 10px;
+    top: 20px;
 }
 
 .footer_text {
-    width: 60%;
     margin: 0 auto;
     font-size: 25px;
     color: #fefefd;
-    text-align: center;
-    line-height: 10px;
-
+    text-align: left;
+    line-height: 80px;
 }
 
 .location_text {
     width: 100%;
     margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
+    text-align: left;
+    padding-top: 20px;
     font-size: 20px;
     line-height: 25px;
 }
