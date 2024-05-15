@@ -18,14 +18,6 @@ addEventTo = document.querySelector(".event-time-to "),
 addEventSubmit = document.querySelector(".add-event-btn ");
 const correctPassword = "EmmaEspresso";
 
-
-//попытка добавить события
-const eventOne = "Latte Art-päivä";
-const eventTwo = "Latte Paikallisten Tuottajien Päivä";
-const eventThree = "Kahvimaistelu- ja koulutuspäivä";
-const eventFour = "Vegaanihaaste";
-//попытка добавить события
-
 let today = new Date();
 let activeDay;
 let month = today.getMonth();
@@ -288,7 +280,9 @@ function updateEvents(date) {
 addEventBtn.addEventListener("click", () => {
   const enteredPassword = prompt("Lisää tapahtuma syöttämällä salasana:");
 
-  if (enteredPassword === correctPassword) {
+  if (enteredPassword !== null && enteredPassword !== "") {
+
+    if (enteredPassword === correctPassword) {
       const eventTitle = addEventTitle.value;
       const eventTimeFrom = addEventFrom.value;
       const eventTimeTo = addEventTo.value;
@@ -320,9 +314,13 @@ addEventBtn.addEventListener("click", () => {
           updateEvents(activeDay); // Päivitä kuluvan päivän tapahtumat
           addEventWrapper.classList.remove("active"); // Modaalisen ikkunan sulkeminen
       }
+    } else {
+      alert("Virheellinen salasana. Tapahtuman lisääminen hylätään.");
+    }
+
   } else {
-      console.log("Virheellinen salasana. Tapahtuman lisääminen hylätään.");
-  }
+    alert("Virheellinen syöte. Salasana vaaditaan.");
+  } 
   
 });
 
